@@ -7,10 +7,19 @@
 
 /* Tablety a menší notebooky */
 @media (max-width: 992px) {
-    body {
+
+    div.flexbox {
+        display: grid;
+        grid-template-columns: 1fr 1fr !important;
+        width: 100%;
     }
 
-    #wrap {
+    div.box {
+        width: 88%;
+    }
+
+    div.popisek {
+        font-size: 2em;
     }
 
     #logo {
@@ -79,6 +88,16 @@
 /* Telefony na šířku, menší tablety */
 @media (max-width: 768px) {
 
+    div.popisek {
+        font-size: 2.4em;
+    }
+
+    div.flexbox {
+        padding-top: 100px;
+        display: grid;
+        grid-template-columns: 1fr !important;
+    }
+
     #wrap {
         margin-left: 20px;
     }
@@ -139,7 +158,7 @@
     }
 
     #slide h1 {
-        padding: 40px 40px;
+        padding: 20px 40px;
         margin-top: 250px;
         font-size: 2.6em;
     }
@@ -212,7 +231,7 @@
     .copyright {
         margin-top: 50px;
         text-align: center;
-        font-size: 2.1em;
+        font-size: 1.9em;
     }
 
     .social {
@@ -329,6 +348,8 @@
         margin-top: -45px;
         display: flex;
         flex-direction: column;
+        margin-left: -280px;
+
     }
 
     #newsletter input {
