@@ -8,21 +8,347 @@
 /* Tablety a menší notebooky */
 @media (max-width: 992px) {
     body {
-        background: green;
+    }
+
+    #wrap {
+    }
+
+    #logo {
+        margin-left: 100px;
+        transform: translate(10px, 20px);
+    }
+
+    header {
+        align-items: center;
+        float: none;
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+    nav ul {
+        display: flex;
+        margin-left: 60px;
+    }
+
+    nav ul li {
+        margin: 0 20px;
+    }
+
+    nav ul li a {
+        display: block;
+        text-align: center;
+        padding: 40px 10px 10px ;
+        background-repeat: no-repeat;
+        background-position: center center;
+        white-space: nowrap;
+    }
+
+
+    #content {
+        float: none;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    #bocni {
+        display: none;
+    }
+
+    #blog {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #blog article {
+        width: 95%;
+    }
+
+    #paticka {
+        width: 75%;
+        margin-left: 7em;
+    }
+
+    #paticka p {
+        font-size: 0.9em;
     }
 }
 
 /* Telefony na šířku, menší tablety */
 @media (max-width: 768px) {
-    body {
-        background: yellow;
+
+    #wrap {
+        margin-left: 20px;
+    }
+
+    #logo {
+        background-size: 90% 90%;
+        width: 280px;
+        height: 280px;
+    }
+
+    header {
+        float: none;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 100px;
+        width: 100%;
+    }
+
+    nav ul {
+        display: flex;
+        margin-bottom: 100px;
+        margin-left: -12px;
+        gap: 0;
+    }
+
+    nav ul li {
+        font-size: 1.5em;
+        margin: 0 -6px 0 0;
+    }
+
+    nav #home a {
+        background-image: none;
+    }
+
+    nav #recepty a {
+        background-image: none;
+    }
+
+    nav #blogg a {
+         background-image: none;
+    }
+
+    nav #eshop a {
+        background-image: none;
+    }
+
+    nav #kontakty a {
+        background-image: none;
+    }
+
+    #uvod {
+        margin: 40px 100px 100px 0;
+    }
+
+    #uvod img {
+        width: 95%;
+    }
+
+    #slide h1 {
+        padding: 40px 40px;
+        margin-top: 250px;
+        font-size: 2.6em;
+    }
+
+    #slide h2 {
+        padding: 20px 40px;
+        margin-top: 320px;
+        font-size: 2em;
+    }
+
+    #wrap .blog-h1 {
+        padding-top: 40px;
+        font-size: 2.7em;
+    }
+
+    #blog {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 50px;
+    }
+
+    #blog h1 {
+        font-size: 2.3em !important;
+    }
+
+    #blog p {
+        font-size: 1.9em !important;
+    }
+
+    #newsletter {
+        width: 720px;
+        border: none;
+        padding: 20px 0 0 0;
+        background: url(../img/i-news.png) no-repeat 10px 52px;
+        background-size: 70px;
+        margin: 300px 0 100px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-top: 3px dashed #E5E5E5;
+        border-bottom: 3px dashed #E5E5E5;
+    }
+
+    #newsletter p {
+        font-size: 1.8em !important;
+        line-height: 1.2em !important;
+        width: 650px;
+        height: 34px;
+    }
+
+    #newsletter form {
+        position: relative;
+        top: 100px;
+    }
+
+    #newsletter input {
+        font-size: 28px;
+        border-radius: 10px;
+        padding: 10px 15px;
+    }
+
+    #newsletter #submit {
+        margin-left: 40px;
+    }
+
+    #newsletter input#email {
+        width: 380px;
+    }
+
+    .copyright {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 2.1em;
+    }
+
+    .social {
+        margin-top: 140px;
+        margin-right: 260px;
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+
+    footer a {
+        transform: scale(2);
+    }
+
+    footer .twitter a {
+        margin: 20px;
+    }
+
+    footer .facebook a {
+        margin: 20px;
+    }
+
+    footer .youtube a {
+        margin: 20px;
     }
 }
 
 /* Telefony (mobilní zařízení) */
 @media (max-width: 576px) {
     body {
-        background: red;
+    }
+
+    #wrap {
+        margin-left: 20px;
+    }
+
+    #content {
+    }
+
+    #logo {
+        position: relative;
+        left: 22%;
+        top: -270px !important;
+        width: 340px !important;
+        height: 340px !important;
+    }
+
+    header {
+        margin: 0;
+    }
+
+    nav {
+        margin-left: -40px;
+        margin-top: 400px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    nav ul li {
+        border-bottom: 3px dashed #000000;
+        margin: 0;
+        width: 500px;
+        padding-bottom: 60px;
+        font-size: 2.6em;
+    }
+
+    nav ul li a {
+        padding: 0;
+    }
+
+    #slide h1 {
+        padding: 20px 40px;
+        margin-top: 40px;
+        font-size: 2.8em;
+    }
+
+    #slide h2 {
+        padding: 20px 40px;
+        margin-top: 150px;
+        font-size: 2.4em;
+    }
+
+    #newsletter {
+        width: 720px;
+        border: none;
+        padding: 20px 0 0 0;
+        height: 160px;
+        background: url(../img/i-news.png) no-repeat 10px 52px;
+        background-size: 70px;
+        margin: 160px 0 100px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-top: 3px dashed #E5E5E5;
+        border-bottom: 3px dashed #E5E5E5;
+    }
+
+    #newsletter p {
+        font-size: 1.5em !important;
+        line-height: 1.2em !important;
+        width: 650px;
+        height: 34px;
+        margin-left: 2em;
+    }
+
+    #newsletter form {
+        margin-top: -45px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #newsletter input {
+        font-size: 28px;
+        border-radius: 10px;
+        padding: 10px 15px;
+    }
+
+    #newsletter input#email {
+        width: 380px;
+        margin-bottom: 12px;
+    }
+
+    #newsletter #submit {
+        width: 160px;
+        margin-left: 110px;
+    }
+
+    #blog article {
+        width: 100%;
     }
 }
 

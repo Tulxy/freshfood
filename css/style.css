@@ -105,7 +105,7 @@ nav {
 }
 
 nav ul {
-    padding: 0px;
+    padding: 0;
 }
 
 nav li {
@@ -403,7 +403,6 @@ footer p {
 }
 
 footer .social {
-
     position: absolute;
     top: 20px;
     right: 0px;
