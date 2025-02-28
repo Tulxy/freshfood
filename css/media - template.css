@@ -55,6 +55,9 @@
         white-space: nowrap;
     }
 
+    #newsletter p {
+        width: 45%;
+    }
 
     #content {
         float: none;
@@ -69,6 +72,10 @@
     #blog {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    form {
+        margin-left: 50px;
     }
 
     #blog article {
@@ -198,6 +205,7 @@
 
     #newsletter {
         width: 720px;
+        height: 162px;
         border: none;
         padding: 20px 0 0 0;
         background: url(../img/i-news.png) no-repeat 10px 52px;
@@ -268,8 +276,6 @@
 
 /* Telefony (mobilní zařízení) */
 @media (max-width: 576px) {
-    body {
-    }
 
     #wrap {
         margin-left: 20px;
@@ -377,7 +383,41 @@
     }
 
     #blog article {
-        width: 100%;
+        width: 95%;
+    }
+
+    #blog h1 {
+        font-size: 2.6em !important;
+    }
+
+    #blog p {
+        font-size: 2.2em !important;
+    }
+
+    #paticka p {
+        font-size: 1.1em;
+    }
+
+    .social {
+        padding-top: 80px !important;
+        margin-right: 180px !important;
+        width: 400px !important;
+    }
+
+    footer a {
+        transform: scale(2.4);
+    }
+
+    footer .twitter a {
+        margin: 30px;
+    }
+
+    footer .facebook a {
+        margin: 30px;
+    }
+
+    footer .youtube a {
+        margin: 30px;
     }
 }
 
