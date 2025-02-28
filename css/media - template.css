@@ -75,6 +75,10 @@
         width: 95%;
     }
 
+    #blog article img {
+        padding: 10px;
+    }
+
     #paticka {
         width: 75%;
         margin-left: 7em;
@@ -186,6 +190,10 @@
 
     #blog p {
         font-size: 1.9em !important;
+    }
+
+    #blog article img {
+        padding: 20px;
     }
 
     #newsletter {
